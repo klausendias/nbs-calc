@@ -18,6 +18,7 @@ public class CalculatorTest {
 		Calculator calculator = new Calculator ();
 		int result = calculator.subtract(3,2);
 		Assert.assertEquals(1, result);
+
 	}
 	
 	@Test
@@ -25,8 +26,7 @@ public class CalculatorTest {
 		Calculator calculator = new Calculator ();
 		int result = calculator.multiply(3,2);
 		Assert.assertEquals(6, result);
-	}
-
+    
 	@Test
 	public void DivideTwoNumbersTest() {
 		Calculator calculator = new Calculator ();
