@@ -16,8 +16,16 @@ public class CalculatorTest {
 	@Test
 	public void SubtractTwoNumbersTest() {
 		Calculator calculator = new Calculator ();
-		int result = calculator.add(2,2);
-		Assert.assertEquals(0, result);
+		int result = calculator.subtract(3,2);
+		Assert.assertEquals(1, result);
 	}
+	
+	@Test
+	public void MultiplyTwoNumbersTest() {
+		Calculator calculator = new Calculator ();
+		int result = calculator.multiply(2,2);
+		Assert.assertEquals(4, result);
+	}
+
 
 }
